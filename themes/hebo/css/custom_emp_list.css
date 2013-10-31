@@ -1,0 +1,51 @@
+/**
+ * Custom CSS for Employer List
+ */
+
+.emp_info_left{
+	float:left;
+	height: 100%;
+	margin-right: 15px;
+	overflow: hidden;
+	width: 10%;
+}
+
+.emp_logo{
+	border: 0px solid grey;
+	height: 97.6%;
+	width: 98%;
+}
+
+.emp_logo img{
+	height: 100%;
+	width: 100%;
+}
+
+.emp_name{
+	padding-left: 12%;
+}
+
+.emp_info_right{
+	border: 0px solid;
+	float: left;
+	padding: 5px;
+	width: 24%;
+}
+
+.emp_subinfo{
+	display: block;
+	float: left;
+	overflow: hidden;
+	width: 95%;
+	word-wrap: break-word;
+}
+.float_right{
+	float: right;
+	text-align: right;
+}
+
+/**
+ * For Employee Public View
+ */
+
+

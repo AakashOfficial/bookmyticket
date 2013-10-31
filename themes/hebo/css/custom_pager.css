@@ -1,0 +1,36 @@
+/*
+ * Author - Kunal Dethe
+ * Created - 2013-06-10
+ * Modified - 2013-06-10
+*/
+
+.page a{
+	border-radius: 15px 15px 0 0 !important;
+	color: #000000;
+}
+.pager .first a{
+	/*background-color: cyan;*/
+	border-radius: 15px 0 0 15px !important;
+    color: #000000;
+	float: left;
+}
+.pager .previous a {
+    /*background-color: magento;*/
+	color: #000000;
+	float: none !important;
+}
+.pager .last a{
+	/*background-color: yellow;*/
+	border-radius: 0px 15px 15px 0 !important;
+	color: #000000;
+	float: right;	
+}
+.pager .next a{
+	/*background-color: orange;*/
+	color: #000000;
+	float: none !important;
+}
+.pager .selected a{
+	background: #DDDDDD !important;
+}
+

@@ -1,0 +1,284 @@
+/**
+ * Author - Kunal Dethe
+ *
+ *
+ */
+
+
+/* For - Post a Job */
+
+.job_left{
+	border-right: 1px dashed #B0B0B0;
+	float: left;
+	padding: 5px;
+	width: 48%;
+}
+
+.job_right{
+	float: left;
+	padding: 5px;
+	padding-left: 20px;
+	width: 48%;
+}
+
+/* Posted Jobs */
+.comp_name{
+	padding-left: 10px;
+	margin-bottom: 5px;
+}
+.info_left{
+	float: left;
+	overflow: hidden;
+	width: 90%;
+}
+
+.addln_info{
+	float: left;	
+	width: 99%;
+}
+
+.addln_info span{
+	float: left;
+	padding-left: 10px;
+	width: 18%;
+}
+	.addln_info_title{
+		color: #000000;
+	}
+	.addln_info_info{
+	}
+	
+.info_right{
+	float: right;
+	text-align: left;
+}
+	.info_right .addln_info_title{
+		color: #000000;
+	}
+	.info_right .addln_info_info{
+	}
+
+
+.statistics{
+	padding: 8px;
+}
+.statistics span{
+	float: left;
+	margin-bottom: 10px;
+	padding: 5px;
+	width: 100%;
+}
+.statistics span.stat_title{
+	float: left;
+	width: 60%;
+}
+.statistics span.stat_info{
+	float: left;
+	text-align: right;
+	width: 25%;
+}
+
+
+/**
+ * For Logged In Employer's Posted Job page
+ *
+ */
+ 
+#posted_job {
+	float: left;
+	overflow: hidden;
+	padding: 5px;
+	width: 100%;
+}
+
+#ijob_left,
+#ijob_center,
+#ijob_right {
+	border-right: 1px solid #EAEAEA;
+	float: left;
+	height: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow: hidden;
+}
+
+#ijob_left {
+	width: 20%;
+}
+
+	#ijob_logo {
+		height: 125%;
+		margin-bottom: 25px;
+		width: 45%;
+	}
+
+	#ijob_logo img{
+		height: 99%;
+		width: 99%;
+	}
+
+	#ijob_comp_name {
+		margin-bottom: 15px;
+	}
+
+	#ijob_comp_desc {
+		max-height: 300px;
+		margin-bottom: 15px;
+		text-align: justify;
+	}
+			
+	#ijob_contact_info {
+		margin-bottom: 30px;
+		overflow: hidden;
+		padding: 10px;
+	}
+		#ijob_contact_info span{
+			float: left;
+			width: 100%;
+		}
+
+#ijob_center {
+	width: 55%;
+}
+			
+	#ijob_title {
+		overflow: hidden;
+		padding-bottom: 10px;
+	}
+
+		#ijob_title h3 {
+			border-bottom: 1px solid;
+			border-color: #000000;
+		}
+	
+	.ijob_info0 {
+		float: left;
+		margin-bottom: 10px;
+		padding: 5px;
+		padding-left: 2px;
+		width: 48.9%;
+	
+	}
+	
+	.ijob_info {
+		float: left;
+		margin-bottom: 5px;
+		padding: 5px;
+		padding-left: 2px;
+		width: 100%;
+	
+	}
+		.even {
+			background-color: #FFFFFF;
+		}
+
+		.odd {
+			background-color: #FFFFFF;
+		}
+
+		.ijob_subinfo_title {
+			float: left;
+			width: 26%;
+			word-wrap: break-word;
+		}
+		.ijob_subinfo_data {
+			float: left;
+			width: 73%;
+			word-wrap: break-word;
+		}
+
+
+
+	#ijob_desc {
+		max-height: 300px;
+		margin-bottom: 10px;
+		padding: 10px;
+		/*text-align: justify;*/
+	}
+
+	#ijob_req {
+		max-height: 300px;
+		margin-bottom: 10px;
+		padding: 10px;
+	}
+
+	#ijob_how_to_apply {
+		max-height: 300px;
+		margin-bottom: 10px;
+		padding: 10px;
+		text-align: justify;
+	}
+		#ijob_how_to_apply_btn {
+			float: left;
+			margin-top: 20px;
+			text-align: center;
+			width: 100%;
+		}
+#ijob_right {
+	width: 18%;
+}
+	
+	.ijob_actons {
+		margin-top: 10px;
+		margin-bottom: 7px;
+		overflow: hidden;
+	}
+		
+		.side {
+			float: left;
+		}		
+		.ijob_subinfo_title.side {
+			width: 40%;
+		}
+		.ijob_subinfo_data.side {
+			width: 58%;
+		}
+		
+		.ijob_actons_btn {
+			float: left;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			text-align: center;
+			width: 100%;
+		}
+
+		.ijob_actons_btn input[type="button"]{
+			width: 75%;
+
+
+/**
+ * For Device Screen with 360x480
+ */
+
+	@media only screen and (max-width: 480px){
+	    /* rules defined inside here are only applied to browsers that support CSS media queries and the browser window is 480px or smaller */
+		
+		.job_left,
+		.job_right{
+			width: 100%;
+		}
+
+		 .public_list, .public_list_sidebar{
+			width: 100%;
+		}
+
+
+		/* For Employer Posted Job */
+
+		#ijob_left,
+		#ijob_center,
+		#ijob_right {
+			width: 100%;
+		}
+
+		.ijob_subinfo_title {
+			width: 100%;
+		}
+		.ijob_subinfo_data {
+			width: 100%;
+
+	}
+
+/*
+ * End for 480px
+ */
